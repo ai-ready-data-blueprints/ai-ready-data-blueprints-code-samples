@@ -7,7 +7,7 @@ to ABC Inc. products and services only. No financial advice.
 import boto3
 import json
 
-session = boto3.Session(profile_name="harsha2")
+session = boto3.Session(profile_name="REPLACE-WITH-YOUR-AWS-PROFILE")
 bedrock_runtime = session.client("bedrock-runtime", region_name="us-east-1")
 
 MODEL_ID = "us.anthropic.claude-sonnet-4-20250514-v1:0"
